@@ -3,11 +3,21 @@
 
 	<head>
 		<title>My html page</title>
+	    <link rel="stylesheet" type="text/css" href="Css/style.css">
 	</head>
+	<style type="text/css">
+		h3{
+			color: green;
+			border: 1px red dotted;
+			width:300px;
+			height: 100px;
+		}
+	</style>
 
 <body>
-	<h1>Hello world</h1>
-	<h2>Hello world</h2>
+
+	<h1 style="color: blue;font-size: 35px;">Hello world</h1>
+	<h2 style="color: green;">Hello world</h2>
 	<h3>Hello world</h3>
 	<h4>Hello world</h4>
 	<h5>Hello world</h5>
@@ -22,5 +32,48 @@
 
  
  <a href= "http://code4mitrovica.com/"target="_blank"><img src="img/nature.jpg"width="300px"hight="200px"></a>
+ <!--Here is an unordered list-->
+ <ul>
+    <LI>first element</LI>
+    <LI>second element</LI>
+    <LI>third element</LI>
+</ul>
+
+<ol>
+	<li> Fisrt element</li>
+    <li> Second element</li>
+    <li> Third element</li>
+ </ol>
+<!--Here os a table-->
+<table>
+	<tr>
+		<th>First Name |</th>
+		<th>Last Name |</th>
+		<th>Gender</th>
+    </tr>
+<tr>
+	<td>Esra</td>
+	<td>Kursumlija</td>
+	<td>Female</td>
+</tr>
+<tr>
+    <td>Behare</td>
+    <td>Mlinaku</td>
+    <td>Female</td>
+ </tr>
+</table>
+
+<form>
+	<h3>My first form</h3>
+	<input type="text"placeholder="Firstname"><br>
+	<input type="text" name=""placeholder="Surname"><br>
+	<hr>
+	<input type="radio" name="Gender"value="female">
+	Female <br>
+	<input type="radio" name="Gender" value="Male">
+	Male <br>
+	<hr>
+	<input type ="submit" name="">
+</form>
 </body>
 </html>
